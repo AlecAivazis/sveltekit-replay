@@ -17,43 +17,32 @@
 <h1>The World of Rick and Morty</h1>
 <main>
   {#each $data.characters.results as character}
-    <section style={`background-image: url(${character.image})`}>
-      <h2>{character.name}</h2>
+    <section>
+      <a href={`/character/${character.id}`}>
+        <img src={character.image} alt={character.name} />
+        <h2>{character.name}</h2>
+      </a>
     </section>
   {/each}
 </main>
 
 <style>
-  h1,
-  h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-
   main {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-template-rows: repeat(4, 200px);
-    row-gap: 10px;
-    column-gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   section {
-    position: relative;
-    background-size: cover;
+    width: 200px;
+    margin: 0 10px;
+  }
+
+  img {
+    width: 100%;
   }
 
   h2 {
-    display: none;
-    position: absolute;
-    bottom: 0px;
-    margin: 0px;
-    padding: 10px;
-    background: rgba(255, 255, 255, 0.5);
-    width: 100%;
-    font-weight: bold;
-  }
-
-  section:hover > h2 {
-    display: block;
+    margin: 0;
   }
 </style>
