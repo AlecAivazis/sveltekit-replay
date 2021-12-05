@@ -20,11 +20,15 @@
       }
     `
   )
+
+  const {
+    character: { image, name },
+  } = $data
 </script>
 
 <section>
-  <img src={$data.character.image} alt={$data.character.name} />
-  <h2>{$data.character.name}</h2>
+  <img src={image} alt={name} />
+  <h2>{name}</h2>
 </section>
 
 <style>

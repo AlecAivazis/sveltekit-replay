@@ -12,11 +12,15 @@
       }
     }
   `)
+
+  const {
+    characters: { results },
+  } = $data
 </script>
 
 <h1>The World of Rick and Morty</h1>
 <main>
-  {#each $data.characters.results as character}
+  {#each results as character}
     <section>
       <a href={`/character/${character.id}`}>
         <img src={character.image} alt={character.name} />
@@ -27,6 +31,10 @@
 </main>
 
 <style>
+  h1 {
+    font-size: 3em;
+    text-align: center;
+  }
   main {
     display: flex;
     flex-wrap: wrap;
