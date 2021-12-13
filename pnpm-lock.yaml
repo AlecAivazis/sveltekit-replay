@@ -4,14 +4,14 @@ specifiers:
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
   houdini: 0.12.1
-  houdini-preprocess: ^0.11.1
+  houdini-preprocess: 0.12.1
   prettier: ^2.4.1
   prettier-plugin-svelte: ^2.4.0
   svelte: ^3.44.0
 
 dependencies:
   houdini: 0.12.1
-  houdini-preprocess: 0.11.1
+  houdini-preprocess: 0.12.1
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.3
@@ -531,23 +531,13 @@ packages:
       function-bind: 1.1.1
     dev: true
 
-  /houdini-common/0.11.1_graphql@15.5.0:
-    resolution: {integrity: sha512-MA4MPPoLkgSFuWNpEdx/L5UFfOR2OaGL67KtaPbZiByXFYrc3AOfkGbVIMBnJk64ui1WGIZMoJLVnqF99QRg/Q==}
+  /houdini-common/0.12.1_graphql@15.5.0:
+    resolution: {integrity: sha512-KnNibwAFBszbx5LrFkEeZyENVcXu/SZ5Pp55RIFfTqxZXm2XmgvXQy+gHtjwjylbMH9fUQplvsUYZ7fySV2dnA==}
     peerDependencies:
       graphql: ^15.x
     dependencies:
       '@babel/parser': 7.16.4
       graphql: 15.5.0
-      mkdirp: 1.0.4
-    dev: false
-
-  /houdini-common/0.11.1_graphql@15.7.2:
-    resolution: {integrity: sha512-MA4MPPoLkgSFuWNpEdx/L5UFfOR2OaGL67KtaPbZiByXFYrc3AOfkGbVIMBnJk64ui1WGIZMoJLVnqF99QRg/Q==}
-    peerDependencies:
-      graphql: ^15.x
-    dependencies:
-      '@babel/parser': 7.16.4
-      graphql: 15.7.2
       mkdirp: 1.0.4
     dev: false
 
@@ -561,42 +551,19 @@ packages:
       mkdirp: 1.0.4
     dev: false
 
-  /houdini-preprocess/0.11.1:
-    resolution: {integrity: sha512-a8GUr7jrkhibScV763CxTIYCP0UPqe2IraxebEJb/GDufgsYb6becAWnegm6p6EvSnlwyCSrS5AbmxrJtcJytQ==}
+  /houdini-preprocess/0.12.1:
+    resolution: {integrity: sha512-EvrxrK5us0BTDTw+3nk53ZT+/+NWqhJRg/O2SntokphkXR5DlBLADY86jOW3zmQnTtUqz/7tNb4bUpSQlz2w6A==}
     dependencies:
       '@types/mkdirp': 1.0.2
       babylon: 7.0.0-beta.47
       estree-walker: 2.0.2
       graphql: 15.5.0
-      houdini: 0.11.1
-      houdini-common: 0.11.1_graphql@15.5.0
+      houdini: 0.12.1
+      houdini-common: 0.12.1_graphql@15.5.0
       mkdirp: 1.0.4
       prettier: 2.5.0
       prettier-plugin-svelte: 2.5.0_prettier@2.5.0+svelte@3.44.2
       recast: 0.20.5
-      svelte: 3.44.2
-    transitivePeerDependencies:
-      - rollup
-    dev: false
-
-  /houdini/0.11.1:
-    resolution: {integrity: sha512-Ub9nK3VTtwLFod/Cw8GdSRPFeXl40hpv/kkLgGXD0KFO5cMnO7y06mnbMGu+SdDUy5ab5OwhLmt5agEW6nmW5g==}
-    engines: {node: '>=14.13'}
-    hasBin: true
-    dependencies:
-      '@graphql-tools/merge': 6.2.17_graphql@15.7.2
-      '@types/inquirer': 7.3.3
-      babylon: 7.0.0-beta.47
-      commander: 7.2.0
-      estree-walker: 2.0.2
-      glob: 7.2.0
-      graphql: 15.7.2
-      houdini-common: 0.11.1_graphql@15.7.2
-      inquirer: 7.3.3
-      mkdirp: 1.0.4
-      node-fetch: 2.6.6
-      recast: 0.20.5
-      rollup-plugin-preserve-shebangs: 0.2.0
       svelte: 3.44.2
     transitivePeerDependencies:
       - rollup
