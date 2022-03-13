@@ -4,14 +4,14 @@ specifiers:
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
   houdini: 0.12.4
-  houdini-preprocess: 0.12.3
+  houdini-preprocess: 0.12.4
   prettier: 2.5.1
   prettier-plugin-svelte: 2.6.0
   svelte: 3.46.4
 
 dependencies:
   houdini: 0.12.4
-  houdini-preprocess: 0.12.3
+  houdini-preprocess: 0.12.4
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.31
@@ -602,8 +602,8 @@ packages:
       mkdirp: 1.0.4
     dev: false
 
-  /houdini-preprocess/0.12.3:
-    resolution: {integrity: sha512-zMYc/duU4tCK0kILJ0tJvn1T3dKcKQqIVecklJdsaK6Y5LiYjlFDT+/EnFbn05RMPVD3HdENpSq4r3kz9tIQxg==}
+  /houdini-preprocess/0.12.4:
+    resolution: {integrity: sha512-3xpzAmV8MwJpsv0Hs8+9vU4fibvUm9JXk4aVWkpjBP5hTkva+1ln3EXjylXdvV8HKP8RKrcByfTACUsmS4/lEw==}
     dependencies:
       '@types/mkdirp': 1.0.2
       babylon: 7.0.0-beta.47
