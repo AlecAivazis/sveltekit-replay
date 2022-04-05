@@ -3,14 +3,14 @@ lockfileVersion: 5.3
 specifiers:
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
-  houdini: 0.13.6
+  houdini: 0.13.7
   houdini-preprocess: 0.13.6
   prettier: 2.6.2
   prettier-plugin-svelte: 2.6.0
   svelte: 3.46.6
 
 dependencies:
-  houdini: 0.13.6
+  houdini: 0.13.7
   houdini-preprocess: 0.13.6
 
 devDependencies:
@@ -654,8 +654,8 @@ packages:
       - rollup
     dev: false
 
-  /houdini/0.13.6:
-    resolution: {integrity: sha512-V9i4mu9luQTt+3mDLkXddFYZuLJMX5fvK9cP9J1nhFLW4j+FGyP4CF+mwpAlpfPg6Wv2is/PB6u2ztoKqefqWg==}
+  /houdini/0.13.7:
+    resolution: {integrity: sha512-PYjq12FQMPyM7BTSSqUAZ4C4kMPYWn5i2bY+o8E87MmDQS/rXPFh3lkAaZLIFVTZtWu4mGOi3j+kdnf1rRoPSQ==}
     engines: {node: '>=14.13'}
     hasBin: true
     dependencies:
