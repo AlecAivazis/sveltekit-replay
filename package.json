@@ -19,6 +19,6 @@
   "type": "module",
   "dependencies": {
     "houdini": "0.13.7",
-    "houdini-preprocess": "0.13.6"
+    "houdini-preprocess": "0.13.8"
   }
 }
