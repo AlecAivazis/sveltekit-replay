@@ -3,19 +3,19 @@ lockfileVersion: 5.3
 specifiers:
   '@sveltejs/adapter-auto': next
   '@sveltejs/kit': next
-  houdini: 0.14.7
+  houdini: 0.14.8
   houdini-preprocess: 0.13.10
   prettier: 2.6.2
   prettier-plugin-svelte: 2.7.0
   svelte: 3.48.0
 
 dependencies:
-  houdini: 0.14.7
+  houdini: 0.14.8
   houdini-preprocess: 0.13.10
 
 devDependencies:
   '@sveltejs/adapter-auto': 1.0.0-next.50
-  '@sveltejs/kit': 1.0.0-next.347_svelte@3.48.0
+  '@sveltejs/kit': 1.0.0-next.348_svelte@3.48.0
   prettier: 2.6.2
   prettier-plugin-svelte: 2.7.0_prettier@2.6.2+svelte@3.48.0
   svelte: 3.48.0
@@ -407,8 +407,8 @@ packages:
       - supports-color
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.347_svelte@3.48.0:
-    resolution: {integrity: sha512-kxan2F8g9nM/4QzLINsPiZdLZLx6X2Tjg+Ft8KR2QPhHKCEQ3jlosnGTzmznt572PTg89UhiUhQWKK4IDk2nSA==}
+  /@sveltejs/kit/1.0.0-next.348_svelte@3.48.0:
+    resolution: {integrity: sha512-K9dfgzIbotWmbcdCsQ6ROGs9R+bsGWwmSdN6l6km1QV5esQehqg1UYHGD9q0VJsg4rJg/zmKVBYo0oBquSHPZw==}
     engines: {node: '>=16.7'}
     hasBin: true
     peerDependencies:
@@ -843,7 +843,7 @@ packages:
     dev: false
 
   /concat-map/0.0.1:
-    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
   /console-control-strings/1.1.0:
     resolution: {integrity: sha512-ty/fTekppD2fIwRvnZAVdeOiGd1c7YXEixbgJTNzqcxJWKQnjJ/V1bNEEE6hygpM3WjwHFUVK6HTjWSzV4a8sQ==}
@@ -1526,8 +1526,8 @@ packages:
       - rollup
     dev: false
 
-  /houdini/0.14.7:
-    resolution: {integrity: sha512-Z30KWaN7KvoJcAyPfTSbqaIkeFcS3gA+x2GKO76K7UHgfareK1fDo5kdFxDSn+pvDyxBuL8O+eXZmErtRyOeHw==}
+  /houdini/0.14.8:
+    resolution: {integrity: sha512-v9OgEf9lUmMpy2b2Ua2jzw6hTFkm/44ICqa/G/WuQraks8Me4MJ1KZvjfZLpVfXzpqncSg5kFXXcpJhAzEkH4g==}
     hasBin: true
     dependencies:
       '@babel/parser': 7.18.3
@@ -2291,12 +2291,12 @@ packages:
     dev: true
 
   /process/0.11.10:
-    resolution: {integrity: sha1-czIwDoQBYb2j5podHZGn1LwW8YI=}
+    resolution: {integrity: sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A==}
     engines: {node: '>= 0.6.0'}
     dev: false
 
   /pseudomap/1.0.2:
-    resolution: {integrity: sha1-8FKijacOYYkX7wqKw0wa5aaChrM=}
+    resolution: {integrity: sha512-b/YwNhb8lk1Zz2+bXXpS/LK9OisiZZ1SNsSLxN1x2OXVEhW2Ckr/7mWE5vrC1ZTiJlD9g19jWszTmJsB+oEpFQ==}
     dev: false
 
   /queue-microtask/1.2.3:
