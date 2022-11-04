@@ -1,12 +1,19 @@
-import adapter from '@sveltejs/adapter-auto'
-import houdini from 'houdini-preprocess'
+import adapter from '@sveltejs/adapter-auto';
+import { resolve } from 'path';
+import preprocess from 'svelte-preprocess';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-  preprocess: [houdini()],
-  kit: {
-    adapter: adapter(),
-  },
-}
+	// Consult https://github.com/sveltejs/svelte-preprocess
+	// for more information about preprocessors
+	preprocess: preprocess(),
 
-export default config
+	kit: {
+		adapter: adapter(),
+		alias: {
+			$houdini: resolve('./$houdini')
+		}
+	}
+};
+
+export default config;
