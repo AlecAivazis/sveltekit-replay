@@ -12,7 +12,7 @@
 <main class="wrapper">
 	{#each results as character}
 		<section>
-			<a data-sveltekit-prefetch href={`/character/${character.id}`}>
+			<a data-sveltekit-prefetch href={`/character2/${character.id}`}>
 				<img src={character.image} alt={character.name} />
 				<h2>{character.name}</h2>
 			</a>
